@@ -1,27 +1,30 @@
-# AngularRouting
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+1. How to Define Routes?
 
-## Development server
+Create a new route using Routes Array and define some routes inside array
+Register the route using RouterModule.forRoot(route)
+Now use <router-outlet> where you want to render the view of specified component.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. How to Implement NotFoundRoute?
 
-## Code scaffolding
+Using WildCard route , specified using ** and must be given at the end of all routes.It matches every URL, the router will select this route if it can't match a route earlier in the configuration.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. WHat is RouterLink directive?
 
-## Build
+It binds HTML element to route. When applied to an element in a template, makes that element a link that initiates navigation to a route. We can pass additional parameters to it also. It overrides the default behaviour of anchor tag <a>.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+4. WHat is RouterLinkActive Directive?
 
-## Running unit tests
+Tracks whether the linked route of an element is currently active, and allows you to specify one or more CSS classes to add to the element when the linked route is active.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. WHat is RouterLinkActiveOptions Directive?
 
-## Running end-to-end tests
+When a child route is active, its parent route is also active. In that case routerLinkactive is applied to active child route as well as parent route. To resolv this we have to use this RouterLinkActive Directive. [routerLinkActiveOptions]="{exact:true}
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+6. What is Absolute path?
+![Alt text](image.png)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+7. What is Relative path?
+![Alt text](image-1.png)
+![Alt text](image-2.png)
+![Alt text](image-3.png)

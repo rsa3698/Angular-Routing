@@ -28,3 +28,24 @@ When a child route is active, its parent route is also active. In that case rout
 ![Alt text](image-1.png)
 ![Alt text](image-2.png)
 ![Alt text](image-3.png)
+
+8. What is Router navigate() metohd?
+![Alt text](image-4.png)
+
+9. What is navigateToUrl() method?
+![Alt text](image-5.png)
+
+10. What is Route Parameter?
+![Alt text](image-6.png)
+
+11. Using Observable to retrieve route parameter. Snapshot property?
+![Alt text](image-7.png)
+
+12. ParamMap Obseravble?
+![Alt text](image-8.png)
+
+13. Using Query String in ROute?
+![Alt text](image-9.png)
+
+14. Route Parameter vs Query String?
+![Alt text](image-10.png)

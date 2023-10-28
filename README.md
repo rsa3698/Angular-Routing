@@ -49,3 +49,17 @@ When a child route is active, its parent route is also active. In that case rout
 
 14. Route Parameter vs Query String?
 ![Alt text](image-10.png)
+
+15.Fragments?
+![Alt text](image-11.png)
+
+16.Working with Child Routes?
+ {
+    path: 'Courses' , children :[
+     { path: 'Course/:id' , component : CoursesComponent},
+     { path: 'Popular' , component : PopularComponent}
+    ]
+  },
+
+17. Router module file?
+Implementation in app-routing-module.ts

@@ -63,3 +63,41 @@ When a child route is active, its parent route is also active. In that case rout
 
 17. Router module file?
 Implementation in app-routing-module.ts
+
+18. Route Guard?
+![Alt text](image-12.png)
+![Alt text](image-13.png)
+
+19. Types of Route Guard?
+![Alt text](image-14.png)
+![Alt text](image-15.png)
+
+20. Route Guard Implementation?
+![Alt text](image-16.png)
+
+21. LogIn Implementation
+
+22. CanActivate Route guard?
+![Alt text](image-17.png)
+![Alt text](image-18.png)
+![Alt text](image-19.png)
+![Alt text](image-20.png)
+
+22. CanActivateFn Route Guard for Angular 15 and higher version
+
+23. CanActivateChild Route Guard?
+![Alt text](image-21.png)
+
+24. CanDeactivate Route guard?
+![Alt text](image-22.png)
+![Alt text](image-23.png)
+
+25. Resolve route guard?
+![Alt text](image-24.png)
+
+26. Router Navigation Events?
+ imports: [
+        RouterModule.forRoot(routes, {enableTracing: true})
+    ],
+
+27. Pass Data to Routes?

@@ -26,7 +26,13 @@ export class CoursesComponent implements OnInit {
     this.activeRoute.queryParams.subscribe((data)=>{
       this.searchString = data['search'];
       if(this.searchString === undefined || this.searchString === '' || this.searchString === null){
-        this.AllCourses = this.coursesService.courses;
+       // this.AllCourses = this.coursesService.courses;
+        //  this.coursesService.getAllcourses().subscribe((data: Course[]) => {
+        //   this.AllCourses = data;
+        // });
+
+        this.AllCourses=this.activeRoute.snapshot.data['courses'];
+
       }else{
         this.AllCourses = this.coursesService.courses
           .filter(x => x.title.toLowerCase()
